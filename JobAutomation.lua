@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Work%20at%20a%20pizza%20place'),true))()
+    local Games = loadstring(game:HttpGet('https://raw.githubusercontent.com/oShyyyyy/iris-jhub/main/WorkAtpizzaplace'))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
